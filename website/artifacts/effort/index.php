@@ -1,7 +1,7 @@
 <?php
-  $page_title = 'artifacts';
-  $dir_info = '../';
-  include_once('../header.php');
+  $page_title = 'efforts';
+  $dir_info = '../../';
+  include_once('../../header.php');
 ?>
 
 <div class="navbar navbar-inverse navbar-fixed-top">
@@ -46,7 +46,7 @@
           <div class="well sidebar-nav">
             <ul class="nav nav-list">
               <li class="nav-header">Artifacts</li>
-              <li class='active'><a href="http://www.se.rit.edu/~watchmen/artifacts/">Synopsis</a></li>
+              <li ><a href="http://www.se.rit.edu/~watchmen/artifacts/">Synopsis</a></li>
               <li><a href="<?php echo $dir_info;?>artifacts/methodology/">Process Methodology</a></li>
               <!--
               <li ><a href="<?php echo $dir_info;?>projectplan.php">Project Plan</a></li>
@@ -55,7 +55,7 @@
               -->
               <!-- <li><p style="padding-top:5px;color:grey;font-style:italic;">Architecture <br class="hidden-desktop">(In Progress)</p></li> -->
               <li class="nav-header">Project Progress</li>
-              <li ><a href="<?php echo $dir_info;?>artifacts/effort/">Developer Effort</a></li>
+              <li class='active'><a href="<?php echo $dir_info;?>artifacts/effort/">Developer Effort</a></li>
               <li><a href="<?php echo $dir_info;?>artifacts/metrics/">Measurements and Metrics</a></li>
               <!--
               <li ><a href="<?php echo $dir_info;?>schedule.php">Schedule + Features</a></li>
@@ -71,35 +71,11 @@
         </div><!--/span-->
         <div class="span9">
           <div class="page-header">
-            <h1>What is ASKSG?</h1>
+            <h1>Development Effort</h1>
           </div>
-          <p>
-          ASKSG is a comprehensive platform that corrals student ideas, questions, and concerns from a 
-          variety of online sources into a single portal for the RIT Student Government (SG). The goal 
-          is to enhance their relationship with students and to provide a channel for advice on what 
-          the governance body should focus on, such as programs or policies on campus to change, 
-          replace or recreate. ASKSG provides a common interface for all directed student questions 
-          and inquiries to provide an overarching picture of student sentiment. This interface, 
-          which meets federal accessibility requirements, will funnel student questions submitted 
-          through SMS, phone calls, and social media private messaging, and then enable responses 
-          to be reciprocated using the same incoming interface. 
-        </p>
-        <p>
-          ASKSG will also integrate with 
-          social media services (e.g. Reddit, Twitter, and Facebook) to passively collect and collate 
-          data from student interactions and conversations and analyze it to identify patterns of 
-          shared thought among groups of students. Such information will be available to Student 
-          Government through a secure portal and formatted to allow for easy use in legislative, 
-          promotional and analytic duties. From this work, SG will have quantitative evidence to 
-          sustain policy changes and promote new programs and services, to respond promptly to 
-          direct inquiries, and indirectly identify issues discussed online by the student body. 
-          This will promote a new standard of information availability and enable the RIT SG to 
-          predict student interest and opinion changes over time to make the best decisions for 
-          the organization’s constituency. 
-        </p>
-
-        <br>
-        <p><a href="http://www.se.rit.edu/~watchmen" class="btn btn-primary">&laquo; Back Home</a></p>
+          <iframe src="https://docs.google.com/spreadsheet/pub?key=0AoKKH0Dtz2vJdFJuaTl6bG9fRjZsTk1ic3RyS1RxOVE&output=html" width="650" height="300" frameborder="0"></iframe>
+          <br>
+          <p><a href="http://www.se.rit.edu/~watchmen" class="btn btn-primary">&laquo; Back Home</a></p>
         </div><!--/span-->
       </div><!--/row-->
 
@@ -109,4 +85,4 @@
         <p>&copy; 2012 Team Watchmen</p>
       </footer>
 
-<?php include_once('../footer.php'); ?>
+<?php include_once('../../footer.php'); ?>
