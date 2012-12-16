@@ -133,7 +133,7 @@
                 <li>Public page for RIT student access </li>
                 <li>Basic user login and data persistence</li>
                 <li>Support for direct communication between students and SG representatives</li>
-              <ul>
+              </ul>
 
               <li>Stage 2 Construction</li>
               <ul>
@@ -142,7 +142,7 @@
                 <li>Data aggregation from all supported social networks</li>
                 <li>Social network publishing capabilities</li>
                 <li>System administration</li>
-              <ul>
+              </ul>
 
               <li>Stage 3 Construction</li>
               <ul>
@@ -150,7 +150,7 @@
                 <li>Analysis report generation</li>
                 <li>Social media data analysis</li>
                 <li>Conversation detection through data mining</li>
-              <ul>
+              </ul>
             </ul>
           </p>
         <br>
