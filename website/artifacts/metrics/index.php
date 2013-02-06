@@ -47,7 +47,10 @@
             <ul class="nav nav-list">
               <li class="nav-header">Artifacts</li>
               <li><a href="http://www.se.rit.edu/~watchmen/artifacts/">Synopsis</a></li>
+              <li><a href="http://www.se.rit.edu/~watchmen/artifacts/plan/">Project Plan</a></li>
               <li><a href="<?php echo $dir_info;?>artifacts/methodology/">Process Methodology</a></li>
+              <li><a href="<?php echo $dir_info;?>artifacts/source/">Source Code</a></li>
+              <li><a href="<?php echo $dir_info;?>artifacts/interim/">Interim Presentation</a></li>
               <!--
               <li ><a href="<?php echo $dir_info;?>projectplan.php">Project Plan</a></li>
               <li class="nav-header">System Design</li>
