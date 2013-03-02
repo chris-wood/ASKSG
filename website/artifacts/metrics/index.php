@@ -59,6 +59,7 @@
               <!-- <li><p style="padding-top:5px;color:grey;font-style:italic;">Architecture <br class="hidden-desktop">(In Progress)</p></li> -->
               <li class="nav-header">Project Progress</li>
               <li ><a href="<?php echo $dir_info;?>artifacts/effort/">Developer Effort</a></li>
+              <li><a href="<?php echo $dir_info;?>artifacts/tracker/">Task Tracker</a></li>
               <li class='active'><a href="<?php echo $dir_info;?>artifacts/metrics/">Measurements and Metrics</a></li>
               <!--
               <li ><a href="<?php echo $dir_info;?>schedule.php">Schedule + Features</a></li>
