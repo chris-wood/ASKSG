@@ -77,7 +77,7 @@
           <div class="page-header">
             <h1>Task Tracker</h1>
           </div>
-          <iframe src="https://docs.google.com/spreadsheet/pub?key=0AoKKH0Dtz2vJdFBtX29QbXE1TXRQSnM0QS02Z19sUmc&output=html" width="650" height="300" frameborder="0"></iframe>
+          <iframe src="https://docs.google.com/spreadsheet/pub?key=0AoKKH0Dtz2vJdFBtX29QbXE1TXRQSnM0QS02Z19sUmc&output=html" width="800" height="800" frameborder="0"></iframe>
           <br>
           <p><a href="http://www.se.rit.edu/~watchmen" class="btn btn-primary">&laquo; Back Home</a></p>
         </div><!--/span-->
