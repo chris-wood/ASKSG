@@ -1,5 +1,5 @@
 <?php
-  $page_title = 'source';
+  $page_title = 'efforts';
   $dir_info = '../../';
   include_once('../../header.php');
 ?>
@@ -51,9 +51,9 @@
               <li><a href="<?php echo $dir_info;?>artifacts/vision/">Vision and Scope</a></li>
               <li><a href="<?php echo $dir_info;?>artifacts/srs/">Requirements Specification</a></li>
               <li><a href="<?php echo $dir_info;?>artifacts/usecases/">Use Case Definition</a></li>
-              <li><a href="<?php echo $dir_info;?>artifacts/test/">Test Plan</a></li>
-              <li ><a href="<?php echo $dir_info;?>artifacts/methodology/">Process Methodology</a></li>
-              <li class='active'><a href="<?php echo $dir_info;?>artifacts/source/">Source Code</a></li>
+              <li class='active'><a href="<?php echo $dir_info;?>artifacts/test/">Test Plan</a></li>
+              <li><a href="<?php echo $dir_info;?>artifacts/methodology/">Process Methodology</a></li>
+              <li><a href="<?php echo $dir_info;?>artifacts/source/">Source Code</a></li>
               <li><a href="<?php echo $dir_info;?>artifacts/interim/">Interim Presentation</a></li>
               <!--
               <li ><a href="<?php echo $dir_info;?>projectplan.php">Project Plan</a></li>
@@ -62,7 +62,7 @@
               -->
               <!-- <li><p style="padding-top:5px;color:grey;font-style:italic;">Architecture <br class="hidden-desktop">(In Progress)</p></li> -->
               <li class="nav-header">Project Progress</li>
-              <li><a href="<?php echo $dir_info;?>artifacts/effort/">Developer Effort</a></li>
+              <li ><a href="<?php echo $dir_info;?>artifacts/effort/">Developer Effort</a></li>
               <li><a href="<?php echo $dir_info;?>artifacts/tracker/">Task Tracker</a></li>
               <li><a href="<?php echo $dir_info;?>artifacts/metrics/">Measurements and Metrics</a></li>
               <!--
@@ -79,13 +79,12 @@
         </div><!--/span-->
         <div class="span9">
           <div class="page-header">
-            <h1>Source Code</h1>
+            <h1>Project Plan</h1>
           </div>
-          <p>
-            The source code for ASKSG is available <a href="https://github.com/rpk7524/asksg">here</a>.
-          </p>
-        <br>
-        <p><a href="http://www.se.rit.edu/~watchmen" class="btn btn-primary">&laquo; Back Home</a></p>
+          <iframe src="https://docs.google.com/document/d/1FgaBInvm0sFkY1y41OVG-PmMWzM73F5_Opi9HovSS2I/pub?embedded=true" width="650" height="800"></iframe>
+          <!--<iframe src="https://docs.google.com/spreadsheet/pub?key=0AoKKH0Dtz2vJdFJuaTl6bG9fRjZsTk1ic3RyS1RxOVE&output=html" frameborder="0"></iframe>-->
+          <br>
+          <p><a href="http://www.se.rit.edu/~watchmen" class="btn btn-primary">&laquo; Back Home</a></p>
         </div><!--/span-->
       </div><!--/row-->
 

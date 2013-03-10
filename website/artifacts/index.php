@@ -46,8 +46,12 @@
           <div class="well sidebar-nav">
             <ul class="nav nav-list">
               <li class="nav-header">Artifacts</li>
-              <li class='active'><a href="http://www.se.rit.edu/~watchmen/artifacts/">Synopsis</a></li>
-              <li><a href="http://www.se.rit.edu/~watchmen/artifacts/plan/">Project Plan</a></li>
+              <li class='active'><a href="<?php echo $dir_info;?>artifacts/">Synopsis</a></li>
+              <li><a href="<?php echo $dir_info;?>artifacts/plan/">Project Plan</a></li>
+              <li><a href="<?php echo $dir_info;?>artifacts/vision/">Vision and Scope</a></li>
+              <li><a href="<?php echo $dir_info;?>artifacts/srs/">Requirements Specification</a></li>
+              <li><a href="<?php echo $dir_info;?>artifacts/usecases/">Use Case Definition</a></li>
+              <li><a href="<?php echo $dir_info;?>artifacts/test/">Test Plan</a></li>
               <li><a href="<?php echo $dir_info;?>artifacts/methodology/">Process Methodology</a></li>
               <li><a href="<?php echo $dir_info;?>artifacts/source/">Source Code</a></li>
               <li><a href="<?php echo $dir_info;?>artifacts/interim/">Interim Presentation</a></li>
