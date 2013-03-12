@@ -82,7 +82,7 @@
             <h1>Source Code</h1>
           </div>
           <p>
-            The source code for ASKSG is available <a href="https://github.com/rpk7524/asksg">here</a>.
+            The source code for ASKSG is available <a href="https://github.com/ithunt/asksg">here</a>.
           </p>
         <br>
         <p><a href="http://www.se.rit.edu/~watchmen" class="btn btn-primary">&laquo; Back Home</a></p>
