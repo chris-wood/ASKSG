@@ -55,6 +55,7 @@
               <li ><a href="<?php echo $dir_info;?>artifacts/methodology/">Process Methodology</a></li>
               <li ><a href="<?php echo $dir_info;?>artifacts/source/">Source Code</a></li>
               <li class='active'><a href="<?php echo $dir_info;?>artifacts/interim/">Interim Presentation</a></li>
+              <li><a href="<?php echo $dir_info;?>artifacts/final/">Final Presentation</a></li>
               <!--
               <li ><a href="<?php echo $dir_info;?>projectplan.php">Project Plan</a></li>
               <li class="nav-header">System Design</li>

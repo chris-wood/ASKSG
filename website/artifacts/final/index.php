@@ -1,5 +1,5 @@
 <?php
-  $page_title = 'artifacts';
+  $page_title = 'source';
   $dir_info = '../../';
   include_once('../../header.php');
 ?>
@@ -46,16 +46,16 @@
           <div class="well sidebar-nav">
             <ul class="nav nav-list">
               <li class="nav-header">Artifacts</li>
-              <li><a href="http://www.se.rit.edu/~watchmen/artifacts/">Synopsis</a></li>
+              <li ><a href="http://www.se.rit.edu/~watchmen/artifacts/">Synopsis</a></li>
               <li><a href="http://www.se.rit.edu/~watchmen/artifacts/plan/">Project Plan</a></li>
               <li><a href="<?php echo $dir_info;?>artifacts/vision/">Vision and Scope</a></li>
               <li><a href="<?php echo $dir_info;?>artifacts/srs/">Requirements Specification</a></li>
               <li><a href="<?php echo $dir_info;?>artifacts/usecases/">Use Case Definition</a></li>
               <li><a href="<?php echo $dir_info;?>artifacts/test/">Test Plan</a></li>
-              <li><a href="<?php echo $dir_info;?>artifacts/methodology/">Process Methodology</a></li>
-              <li><a href="<?php echo $dir_info;?>artifacts/source/">Source Code</a></li>
+              <li ><a href="<?php echo $dir_info;?>artifacts/methodology/">Process Methodology</a></li>
+              <li ><a href="<?php echo $dir_info;?>artifacts/source/">Source Code</a></li>
               <li><a href="<?php echo $dir_info;?>artifacts/interim/">Interim Presentation</a></li>
-              <li><a href="<?php echo $dir_info;?>artifacts/final/">Final Presentation</a></li>
+              <li class='active'><a href="<?php echo $dir_info;?>artifacts/final/">Final Presentation</a></li>
               <!--
               <li ><a href="<?php echo $dir_info;?>projectplan.php">Project Plan</a></li>
               <li class="nav-header">System Design</li>
@@ -63,9 +63,9 @@
               -->
               <!-- <li><p style="padding-top:5px;color:grey;font-style:italic;">Architecture <br class="hidden-desktop">(In Progress)</p></li> -->
               <li class="nav-header">Project Progress</li>
-              <li ><a href="<?php echo $dir_info;?>artifacts/effort/">Developer Effort</a></li>
+              <li><a href="<?php echo $dir_info;?>artifacts/effort/">Developer Effort</a></li>
               <li><a href="<?php echo $dir_info;?>artifacts/tracker/">Task Tracker</a></li>
-              <li class='active'><a href="<?php echo $dir_info;?>artifacts/metrics/">Measurements and Metrics</a></li>
+              <li><a href="<?php echo $dir_info;?>artifacts/metrics/">Measurements and Metrics</a></li>
               <!--
               <li ><a href="<?php echo $dir_info;?>schedule.php">Schedule + Features</a></li>
               <li ><a href="<?php echo $dir_info;?>defects.php">Defect Tracker</a></li>
@@ -79,35 +79,9 @@
           </div><!--/.well -->
         </div><!--/span-->
         <div class="span9">
-        <div class="page-header">
-          <h1>Project Measurements and Metrics</h1>
-        </div>
-
-        <h3>Measurements</h3>
-        <ul>
-          <li>Percentage of requirements that change every week</li>
-          <li>Scheduler overage (differences between actual and estimated task completion dates)</li>
-          <li>Number of individual hours spent on specific tasks every week, categorized based on the type of activity (e.g. requirements, design, implementation, test, etc)</li>
-          <li>Feature value for each completed activity (assigned by a team vote)</li>
-          <li>Total number of defects in the code base</li>
-          <li>Total SLOC measurements</li>
-          <li>Time between bug introduction and fix</li>
-        </ul>
-
-        <h3>Process Metrics</h3>
-        <ul>
-          <li>Schedule slippage</li>
-          <li>Earned feature completion value</li>
-          <li>Categorized time spent on activities per week</li>
-          <li>Requirements volatility</li>
-        </ul>
-
-        <h3>Product Metrics</h3>
-        <ul>
-          <li>Defect density</li>
-          <li>Bug fix velocity (average time to fix bugs)</li>
-        </ul>
-
+          <div class="page-header">
+            <h1>Final Presentation</h1>
+            <iframe src="https://docs.google.com/presentation/d/1g6FeDZGxF6pgj6WkuJkBtIxZM9sIRReEI0NArVCK8mg/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
         <br>
         <p><a href="http://www.se.rit.edu/~watchmen" class="btn btn-primary">&laquo; Back Home</a></p>
         </div><!--/span-->
